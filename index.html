@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velha</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+
+    <section id="bodi">
+    
+    <div id="container">
+      <table id="mapa">
+        <h1>Jogo Da Velha</h1>
+        <tr>
+          <td onclick="inse(1)" class="t" id="e1">.</td>
+          <td class="t" id="e2" onclick="inse(2)">.</td>
+          <td id="e3" class="t" onclick="inse(3)">.</td>
+        </tr>
+        <tr>
+          <td id="e4" class="t" onclick="inse(4)">.</td>
+          <td onclick="inse(5)" class="t" id="e5">.</td>
+          <td onclick="inse(6)" class="t" id="e6">.</td>
+        </tr>
+        <tr>
+          <td class="t" id="e7" onclick="inse(7)">.</td>
+          <td onclick="inse(8)" class="t" id="e8">.</td>
+          <td id="e9" class="t" onclick="inse(9)">.</td>
+        </tr>
+      
+      </table>
+      <div id="roda2">
+        <h2 id="resultado"></h2>
+      </div>
+      <div id="roda">
+
+
+        <button onclick="voltar()">Reniciar</button>
+
+    </div>
+    </div>
+
+    </section>
+
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
